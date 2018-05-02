@@ -1,5 +1,7 @@
 # typescript-library-boilerplate
 
+[![Build Status](https://travis-ci.org/cameron-martin/typescript-library-boilerplate.svg?branch=master)](https://travis-ci.org/cameron-martin/typescript-library-boilerplate)
+
 Boilerplate for creating TypeScript libraries. Why yet another one? Because I like things set up my way, obviously.
 
 ## Features
@@ -25,7 +27,7 @@ Boilerplate for creating TypeScript libraries. Why yet another one? Because I li
 * Update `.travis.yml` file with your new package name.
 * Ensure you have the [Prettier VSCode extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) installed.
 * Add travis to your repository.
-* Release using [`npm version`](https://docs.npmjs.com/cli/version)
+* Release using [`npm version`](https://docs.npmjs.com/cli/version).
 
 ## Updating
 
