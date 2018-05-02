@@ -24,6 +24,7 @@ Boilerplate for creating TypeScript libraries. Why yet another one? Because I li
   * `$ git fetch upstream`
   * `$ git merge upstream/master`
 * Update package.json fields (name, description, keywords, repository).
+* Update repository names in README.md badges.
 * Update `.travis.yml` file with your new package name.
 * Ensure you have the [Prettier VSCode extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) installed.
 * Add travis to your repository.
