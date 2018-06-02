@@ -10,5 +10,10 @@ module.exports = {
     "jsx",
     "json",
     "node"
-  ]
+  ],
+  "globals": {
+    "ts-jest": {
+      "tsConfigFile": "tsconfig.test.json"
+    }
+  }
 };
