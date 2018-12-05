@@ -37,26 +37,24 @@
   },
   "homepage": "https://github.com/cameron-martin/typescript-library-boilerplate#readme",
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.49",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.49",
-    "@babel/plugin-transform-runtime": "^7.0.0-beta.49",
-    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
     "@types/jest": "^23.0.0",
-    "babel-plugin-transform-builtin-extend": "^1.1.2",
-    "cross-env": "^5.1.6",
+    "cross-env": "^5.2.0",
     "jest": "^23.1.0",
     "npm-run-all": "^4.1.3",
     "prettier": "^1.13.4",
     "rimraf": "^2.6.2",
-    "rollup": "^0.59.4",
+    "rollup": "^0.67.4",
     "rollup-plugin-babel": "^4.0.0-beta.4",
     "rollup-plugin-node-resolve": "^3.3.0",
-    "ts-jest": "^22.4.6",
+    "ts-jest": "^23.10.5",
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
-    "typescript": "^2.9.1"
+    "typescript": "^3.2.1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.49"
+    "@babel/runtime": "^7.2.0"
   }
 }

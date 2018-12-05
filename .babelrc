@@ -2,14 +2,8 @@
     "env": {
         "build-module": {
             "plugins": [
-                "@babel/proposal-object-rest-spread",
                 ["@babel/transform-runtime", {
-                    "helpers": true,
-                    "polyfill": false,
-                    "regenerator": false
-                }],
-                ["babel-plugin-transform-builtin-extend", {
-                    "globals": ["Error", "Array"]
+                    "useESModules": true
                 }]
             ],
             "presets": [
@@ -20,11 +14,8 @@
         },
         "build-esnext": {
             "plugins": [
-                "@babel/proposal-object-rest-spread",
                 ["@babel/transform-runtime", {
-                    "helpers": true,
-                    "polyfill": false,
-                    "regenerator": false
+                    "useESModules": true
                 }]
             ]
         }
